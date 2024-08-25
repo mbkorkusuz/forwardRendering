@@ -3,6 +3,9 @@
 This repository contains the implementation of well known forward rendering method in computer graphics.
 
 ## **Installation**
+Make sure you have `imagemagick` on your system for image convertion.
+If not visit [https://imagemagick.org/script/download.php]
+
 1. Clone repository to your local machine
  ````text
 git clone https://github.com/mbkorkusuz/forwardRendering.git
@@ -12,7 +15,7 @@ git clone https://github.com/mbkorkusuz/forwardRendering.git
  ````text
 make
 ```` 
-5. Run `raytracer` executable on input files E.g
+5. Run `rasterizer` executable on input files, E.g
  ````text
 ./rasterizer inputs/sample.xml
 ````
