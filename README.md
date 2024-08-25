@@ -14,26 +14,26 @@ make
 ```` 
 5. Run `raytracer` executable on input files E.g
  ````text
-./raytracer < inputs/simple.xml
+./raytracer inputs/sample.xml
 ````
     
 ## **Example Outputs**
 Here are some rendered 3D objects
 <div class="header">
   <h1>
-    Suzanne
+    Box
   </h1>
 </div>
-<img src="/outputs/monkey.png" alt="Suzanne" title="Suzanne" width=50% height=50%>
+<img src="/outputs/filled_box_4.ppm.png" alt="Box" title="Box" width=50% height=50%>
 <div class="header">
   <h1>
-    Mirrored Spheres
+    Horse and Mug
   </h1>
 </div>
-<img src="/outputs/mirror_spheres.png" title="Mirrored Spheres" width=50% height=50%>
+<img src="/outputs/horse_and_mug_2.ppm.png" alt="Horse and Mug" title="Horse and Mug" width=50% height=50%>
 <div class="header">
   <h1>
-    Cornell Box
+    Flag
   </h1>
 </div>
-<img src="/outputs/cornellbox_front.png" title="Cornell Box" width=50% height=50%>
+<img src="/outputs/flag_eu_1.ppm.png" alt = "Flag" title="Flag" width=50% height=50%>
