@@ -14,7 +14,7 @@ make
 ```` 
 5. Run `raytracer` executable on input files E.g
  ````text
-./raytracer inputs/sample.xml
+./rasterizer inputs/sample.xml
 ````
     
 ## **Example Outputs**
