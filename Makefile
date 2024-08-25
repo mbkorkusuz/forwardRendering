@@ -1,3 +1,4 @@
+SRC_DIR = lib/
 CXX = g++
 CXXFLAGS = -O3 -std=c++11
 TARGET = rasterizer
@@ -6,7 +7,7 @@ TARGET = rasterizer
 
 all: $(TARGET)
 
-$(TARGET): $(wildcard *.cpp)
+$(TARGET): $(wildcard $(SRC_DIR)*.cpp)
 	$(CXX) $^ $(CXXFLAGS) -o $@
 
 clean:
