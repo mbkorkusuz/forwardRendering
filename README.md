@@ -4,7 +4,7 @@ This repository contains the implementation of well known forward rendering meth
 
 ## **Installation**
 Make sure you have `imagemagick` on your system for image convertion.
-If not visit [https://imagemagick.org/script/download.php]
+For further reading for imagemagick, visit https://imagemagick.org
 
 1. Clone repository to your local machine
  ````text
